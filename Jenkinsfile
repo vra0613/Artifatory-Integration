@@ -4,7 +4,7 @@ pipeline {
     environment {
         ARTIFACTORY_SERVER = 'artifactory'
         ARTIFACTORY_REPO = 'maven-repo'
-        ARTIFACTORY_CRED = credentials('artifactory_creds-3')
+        ARTIFACTORY_CRED = credentials('Artifactory Credentials')
     }
 
     stages {
