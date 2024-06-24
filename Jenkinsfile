@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         ARTIFACTORY_SERVER = 'artifactory'
-        ARTIFACTORY_REPO = 'https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo/'
-        ARTIFACTORY_CRED = credentials('artifactory_creds-3')
+        ARTIFACTORY_REPO = 'https://artifactory-cab.pvgroup.intranet/ui'
+        ARTIFACTORY_CRED = credentials('artifactory_creds')
     }
 
     stages {
