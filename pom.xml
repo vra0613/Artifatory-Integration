@@ -15,12 +15,12 @@
 <repository>
 <id>maven-repo-releases</id>
 <name>Artifactory Release Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 </repository>
 <snapshotRepository>
 <id>maven-repo-snapshots</id>
 <name>Artifactory Snapshot Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 </snapshotRepository>
 </distributionManagement>
  
@@ -28,7 +28,7 @@
 <repository>
 <id>maven-repo</id>
 <name>Artifactory Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 <releases>
 <enabled>true</enabled>
 </releases>
@@ -42,7 +42,7 @@
 <pluginRepository>
 <id>maven-repo</id>
 <name>Artifactory Plugin Repository</name>
-<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo/</url>
+<url>https://artifactory-cab.pvgroup.intranet/artifactory/maven-repo</url>
 <releases>
 <enabled>true</enabled>
 </releases>
